@@ -1,0 +1,731 @@
+ .grid-container{
+    display: grid;
+}
+
+div.time{
+  text-align: center;
+}
+
+div.comments > h2{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+div.comments{
+  text-align: center;
+}
+
+h1{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+  }
+
+  h2{
+    font-weight: bold;
+    padding: 10px 0 0 10px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  h3{
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0 0 10px;
+    font-weight: bold;
+  }
+
+  a {
+    font-weight: bold;
+  }
+
+  p{
+    padding: 10px 0 0 10px;
+    text-align: center;
+  }
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    height: 75%; 
+    width: 50%;
+    padding: 25px;
+    object-fit: cover;
+}
+
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    object-fit: contain;
+    height: 85%;
+    position: relative;
+}
+
+.bacon-photos{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+    background: #CCCCFF;
+    border: 3px solid #000000;
+    align-items: center;
+}
+
+.cody-photos{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+    background: #CCCCFF;
+    border: 3px solid #000000;
+}
+
+.van_gogh-photos{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+    background: #CCCCFF;
+    border: 3px solid #000000;
+    object-fit: cover;
+    align-items: center;
+}
+
+.extra_cookie_pics{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+    background: #CCCCFF;
+    border: 3px solid #000000;
+    padding: 0 0 10px 0;
+}
+
+.extra_grilled_cheese_pics{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+    background: #CCCCFF;
+    border: 3px solid #000000;
+    padding: 0 0 10px 0;
+}
+
+.extra_spaghetti_pics{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+    background: #CCCCFF;
+    border: 3px solid #000000;
+}
+
+.extra_mac_pics{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+    background: #CCCCFF;
+    border: 3px solid #000000;
+}
+
+.extra_zucchini_fritters_pics{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+    background: #CCCCFF;
+    border: 3px solid #000000;
+    padding: 0 0 10px 0;
+}
+
+figcaption{
+    padding: 0 0 15px 0;
+}
+
+.vatican_photo_gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+    background: #CCCCFF;
+    border: 3px solid #000000;
+    padding: 0 0 30px 0;
+    align-items: center;
+}
+
+.london_photo_gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+    background: #CCCCFF;
+    border: 3px solid #000000;
+    padding: 0 0 30px 0;
+    align-items: center;
+}
+
+.mexico_photo_gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+    background: #CCCCFF;
+    border: 3px solid #000000;
+    padding: 0 0 30px 0;
+    align-items: center;
+}
+
+body{
+    line-height: auto;
+}
+
+ul{
+    list-style-type: disc;
+    display: inline-block;
+}
+
+ol{
+    list-style-type: decimal;
+    padding: 10px;
+}
+
+li {
+    padding: 5px;
+    margin-left: 20px;
+  }
+
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+  }
+
+.navigation li{
+    display: inline-block;
+    margin: 0;
+    padding: 0 1px 5px 0;
+  }
+ 
+  
+  li a {
+    display: block;
+    background-color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+    color: #FFFFFF;
+  }
+  
+  li a:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+  }
+
+  li::marker{
+    text-align: center;
+  }
+
+  .active {  /* selected portion of navigation bar */
+    background-color: #CCCCFF;
+    color: #000000;
+    font-style: italic;
+    text-decoration-line: underline;
+  }
+
+  .index_pets{
+    text-align: center;
+  }
+
+  .index_travel{
+    text-align: center;
+  }
+
+  .index_recipes{
+    text-align: center;
+  }
+
+  .skip{
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+   .skip:focus{ /* skip to main becomes visible */
+    display: inline-block;
+    position: static;
+    width: auto;
+    height: auto;
+  }
+
+  figcaption{
+    text-align: center;
+    font-size: 19px;
+    padding-right: 10px;
+  }
+
+  .animated_imgs{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+   @media screen and (min-width: 768px) { /* tablet view dimensions */
+    body{
+      background-color: #3DED97;
+      color: #000000;
+    }
+
+    div{
+      text-align: center;
+    }
+
+    .time > h2{
+      border-top: none;
+      padding-bottom: 20px;
+    }
+    
+    .homepage_content{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 5px;
+      align-items: center;
+      background-color: #000000;
+      grid-gap: 5px;  
+    }
+
+    .index_pets {
+      background-color: #CCCCFF;
+    }
+
+    .index_recipes {
+      background-color: #CCCCFF;
+      padding: 0;
+    }
+
+    .index_travel {
+      background-color: #CCCCFF;
+      padding: 0;
+    }
+
+    .bacon-photos{
+      grid-template-columns: 1fr 1fr;
+      border-width: 10px;
+    }
+
+    .cody-photos{
+      align-items: center;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .van_gogh-photos{
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .bacon-photos > img{
+      background-color: #000000;
+    }
+
+    .bacon-photos > video{
+      background-color: #000000;
+      padding: 20px 0 0 0;
+    }
+
+    .cody-photos > img{
+      background-color: #000000;
+    }
+
+    .cody-photos > video{
+      background-color: #000000;
+      padding: 20px 0 0 0;
+    }
+
+    .van_gogh-photos > img{
+      background-color: #000000;
+    }
+
+    .van_gogh-photos > video{
+      background-color: #000000;
+      padding: 20px 0 0 0;
+    }
+
+    .extra_spaghetti_pics {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .extra_spaghetti_pics > img:last-child {
+      grid-column: 1 / span 2;
+    }
+
+    .extra_grilled_cheese_pics {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .extra_grilled_cheese_pics > img:last-child {
+      grid-column: 1 / span 2;
+    }
+
+    .extra_mac_pics {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .extra_mac_pics > img:last-child {
+      grid-column: 1 / span 2;
+    }
+
+    .extra_cookie_pics {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .extra_cookie_pics > img:last-child {
+      grid-column: 1 / span 2;
+    }
+
+    .extra_zucchini_fritters_pics {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .extra_zucchini_fritters_pics > img:last-child {
+      grid-column: 1 / span 2;
+    }
+
+    .vatican_photo_gallery > figure{
+      grid-column: 1 / span 2;
+    }
+
+    .london_photo_gallery > figure{
+      grid-column: 1 / span 2;
+    }
+
+    .mexico_photo_gallery > figure{
+      grid-column: 1 / span 2;
+    }
+
+    ul {
+      display: inline-block;
+      text-align: left;
+      padding: 10px;
+    }
+
+    ol {
+      display: inline-block;
+      text-align: left;
+      padding: 10px;
+      font-family: monospace, 'Courier New', Courier;
+    }
+
+    ul.likes{
+      display: inline-block;
+      text-align: left;
+      font-family: monospace, 'Courier New', Courier;
+      padding: 10px;
+    }
+
+    h1{
+      font-family: 'Brush Script MT', 'Brush Script Std', cursive, 'Courier New', Courier;
+    }
+
+    h2{
+      font-family: monospace, 'Courier New', Courier;
+      border-top: 5px solid #000000;
+    }
+
+    h3{
+      font-size: 15px;
+      font-family: monospace, 'Courier New', Courier;
+    }
+
+    p {
+      color: #000000;
+      padding:20px;
+      font-family: monospace, 'Courier New', Courier;
+    }
+
+    figcaption {
+      color: #000000;
+      padding:20px;
+      font-family: monospace, 'Courier New', Courier;
+    }
+
+    li a{
+      font-family: monospace;
+    }
+
+    .main_travel_imgs {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media screen and (min-width: 1024px) { /* desktop view dimensions */
+    p.desc {
+      padding: 20px;
+    }
+    
+    .homepage_content{
+      background-color: #f4c2f4;
+      grid-template-columns: 1fr 1fr;
+      padding: 30px;
+      grid-gap: 30px;
+      align-items: normal;
+    }
+    
+    .index_travel{
+      grid-column: 1 / span 2;
+      background-color: #3DED97;
+      padding: 20px 0;
+    }
+
+    .index_pets{
+      background-color: #3DED97;
+      padding: 20px 0 50px;
+    }
+
+    .index_recipes{
+      background-color: #3DED97;
+      padding: 20px 0;
+    }
+
+    .index_recipes > img{
+      object-fit: contain;
+      width: 90%;
+    }
+
+/* pets page */
+
+    .bacon-photos > img:last-child {
+      grid-column: 1 / span 2;
+    }
+
+    .bacon-photos{
+      background-color: #f4c2f4;
+    }
+
+    .cody-photos{
+      background-color: #f4c2f4;
+    }
+
+    .van_gogh-photos{
+      background-color: #f4c2f4;
+    }
+
+    .bacon-photos > img {
+      background-color: #3DED97;
+    }
+
+    .bacon-photos > video{
+      grid-row-start: 3;
+      grid-column: 1 / span 2;
+      background-color: #3DED97;
+    }
+
+    .cody-photos > img{
+      background-color: #3DED97;
+    }
+
+    .cody-photos > img:first-child {
+      grid-column: 1 / span 2;
+    }
+
+    .cody-photos > img:last-child {
+      grid-column: 1 / span 2;
+    }
+
+    .van_gogh-photos > img{
+      background-color: #3DED97;
+    }
+
+    .van_gogh-photos > video{
+      background-color: #3DED97;
+    }
+
+    .van_gogh-photos > img:first-child {
+      grid-column: 1 / span 2;
+    }
+
+    .van_gogh-photos > img:last-child {
+      grid-column: 1 / span 2;
+    }
+
+    /* recipes page */
+    
+    .extra_spaghetti_pics{
+      background-color: #f4c2f4;
+      padding-top: 40px;
+    }
+
+    .extra_grilled_cheese_pics{
+      background-color: #f4c2f4;
+      padding-top: 40px;
+    }
+
+    .extra_mac_pics{
+      background-color: #f4c2f4;
+      padding-top: 40px;
+    }
+
+    .extra_cookie_pics{
+      background-color: #f4c2f4;
+      padding-top: 40px;
+    }
+
+    .extra_zucchini_fritters_pics{
+      background-color: #f4c2f4;
+      padding-top: 40px;
+    }
+    
+    .extra_spaghetti_pics > img:first-child{
+      grid-column: 1 / span 2;
+    }
+
+    .extra_spaghetti_pics > img:last-child{
+      grid-column: 2 / span 1;
+    }
+
+    .extra_spaghetti_pics > img{
+      background-color: #3DED97;
+    }
+
+    .extra_grilled_cheese_pics > img:first-child{
+      grid-column: 1 / span 2;
+    }
+
+    .extra_grilled_cheese_pics > img:last-child{
+      grid-column: 2 / span 1;
+    }
+
+    .extra_grilled_cheese_pics > img{
+      background-color: #3DED97;
+    }
+
+    .extra_mac_pics > img:first-child{
+      grid-column: 1 / span 2;
+    }
+
+    .extra_mac_pics > img:last-child{
+      grid-column: 2 / span 1;
+    }
+
+    .extra_mac_pics > img{
+      background-color: #3DED97;
+    }
+
+    .extra_cookie_pics > img:first-child{
+      grid-column: 1 / span 2;
+    }
+
+    .extra_cookie_pics > img:last-child{
+      grid-column: 2 / span 1;
+    }
+
+    .extra_cookie_pics > img{
+      background-color: #3DED97;
+    }
+
+    .extra_zucchini_fritters_pics > img:first-child{
+      grid-column: 1 / span 2;
+    }
+
+    .extra_zucchini_fritters_pics > img:last-child{
+      grid-column: 2 / span 1;
+    }
+
+    .extra_zucchini_fritters_pics > img{
+      background-color: #3DED97;
+    }
+
+    /* travel page */
+
+
+    .vatican_photo_gallery {
+      grid-template-columns: 1fr 1fr 1fr;
+      background-color: #f4c2f4;
+      padding-top: 40px;
+    }
+
+    figure > img{
+      background-color: #3DED97;
+    }
+
+    .vatican_photo_gallery > figure:first-child {
+      grid-column: 1 / span 3;
+    }
+
+    .vatican_photo_gallery > figure:nth-child(2){
+      grid-column: 1 / span 1;
+    }
+
+    .vatican_photo_gallery > figure:nth-child(3){
+      grid-column: 2 / span 1;
+    }
+
+    .vatican_photo_gallery > figure:nth-child(4){
+      grid-column: 3 / span 1;
+    }
+
+    .london_photo_gallery {
+      grid-template-columns: 1fr 1fr 1fr;
+      background-color: #f4c2f4;
+      padding-top: 40px;
+    }
+
+    .london_photo_gallery > figure:first-child {
+      grid-column: 1 / span 3;
+    }
+
+    .london_photo_gallery > figure {
+      grid-column: 1 / span 1;
+  }
+
+    .london_photo_gallery > figure:nth-child(3){
+      grid-column: 2 / span 1;
+    }
+
+    .london_photo_gallery > figure:nth-child(4){
+      grid-column: 3 / span 1; 
+    }
+
+    .mexico_photo_gallery {
+      grid-template-columns: 1fr 1fr 1fr;
+      background-color: #f4c2f4;
+      padding-top: 40px;
+    }
+
+    .mexico_photo_gallery > figure:first-child {
+      grid-column: 1 / span 3;
+    }
+
+    .mexico_photo_gallery > figure {
+      grid-column: 1 / span 1;
+  }
+
+    .mexico_photo_gallery > figure:nth-child(3){
+      grid-column: 2 / span 1;
+    }
+
+    .mexico_photo_gallery > figure:nth-child(4){
+      grid-column: 3 / span 1; 
+    }
+  }
